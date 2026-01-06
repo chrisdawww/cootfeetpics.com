@@ -4,14 +4,15 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("**/*.js");
     eleventyConfig.addPassthroughCopy("**/*.css");
     eleventyConfig.addPassthroughCopy("favicon.ico");
-
+    /*
     return {
-        //markdownTemplateEngine: 'njk',
-        //dataTemplateEngine: 'njk',
-        //htmlTemplateEngine: 'njk',
+        markdownTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
         dir: {
             input: "src",
             output: "dist"
         }
     }
+    */
 };
